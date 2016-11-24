@@ -1,0 +1,31 @@
+.header-bar {
+    padding: 0 40px;
+    height:44px;
+}
+.header-content {
+    width:100%;
+    margin:0 auto;
+    height:44px;
+    line-height: 44px;
+}
+.header-content view {
+    display: inline-block;
+    width:33.3333%;
+    text-align: center;
+    font-size:14px;
+    color:#5f646e;
+}
+.header-content text {
+    display:inline-block;
+    line-height: 42px;
+}
+
+.header-content text.active {
+    border-bottom:2px solid #000;
+}
+.show {
+    display: block;
+}
+.hide {
+    display:none;
+}

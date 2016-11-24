@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/explore/explore",
+    "pages/mi/mi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home_active.png"
+      },{
+        "iconPath": "img/explore.png",
+        "selectedIconPath": "img/explore_active.png",
+        "pagePath": "pages/explore/explore"
+      },{
+        "pagePath": "pages/mi/mi",
+        "iconPath": "img/mi.png",
+        "selectedIconPath": "img/mi.png"
+      }
+    ]
+  }
+}

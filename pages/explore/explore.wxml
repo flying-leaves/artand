@@ -1,0 +1,10 @@
+<view class="header-bar">
+    <view class="header-content">
+        <view bindtap="navClick" data-index="{{index}}"  wx:for="{{nav}}">
+            <text class="{{ index == nowIndex ? 'active' : '' }}">最新的</text>
+        </view>
+    </view>
+    <view class="{{ nowIndex == 0 ? 'show' : 'hide'}}">第一个导航的数据</view>
+    <view class="{{ nowIndex == 1 ? 'show' : 'hide'}}">第二个导航的数据</view>
+    <view class="{{ nowIndex == 2 ? 'show' : 'hide'}}">第三个导航的数据</view>
+</view>
